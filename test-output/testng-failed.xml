@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Form Submission]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="3" parallel="tests" name="Form Submission using FireFox(failed)" verbose="2">
+    <parameter name="browserName" value="FIREFOX"/>
+    <classes>
+      <class name="com.TESTCASE.Test_FormSubmisstion">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="TC02_isMessageDisplayedAfterSubmittingForm"/>
+          <include name="openBrowser"/>
+          <include name="TC03_isContentMessageAsRequirement"/>
+        </methods>
+      </class> <!-- com.TESTCASE.Test_FormSubmisstion -->
+    </classes>
+  </test> <!-- Form Submission using FireFox(failed) -->
+</suite> <!-- Failed suite [Form Submission] -->

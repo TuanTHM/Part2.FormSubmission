@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Form Submission" parallel="tests" thread-count="3" verbose="2"> <!--Run parallel with Chrome,FireFox,Edge -->
+
+    <test name="Form Submission using Chrome">
+        <parameter name="browserName" value="CHROME"/>
+        <classes>
+            <class name="com.TESTCASE.Test_FormSubmisstion"/>
+        </classes>
+    </test>
+
+    <test name="Form Submission using Edge">
+        <parameter name="browserName" value="EDGE"/>
+        <classes>
+            <class name="com.TESTCASE.Test_FormSubmisstion"/>
+        </classes>
+    </test>
+
+    <test name="Form Submission using FireFox">
+        <parameter name="browserName" value="FIREFOX"/>
+        <classes>
+            <class name="com.TESTCASE.Test_FormSubmisstion"/>
+        </classes>
+    </test>
+
+</suite>
