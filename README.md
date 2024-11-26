@@ -1,0 +1,5 @@
+- This project was built in Selenium-Java using IntelliJ IDE. JDK-20
+- The purpose of this project is to automate the testing for a Form Submission of a webpage.
+- Test URL: https://ultimateqa.com/filling-out-forms
+- The test runs parallel in Chrome-Firefox-Edge browsers
+- The location of "testng.xml": /RunTest/testng.xml
